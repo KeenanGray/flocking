@@ -4,7 +4,7 @@
 #include "boid.h"
 #include "of3dPrimitives.h"
 
-#define numberOfBoids 100
+#define numberOfBoids 300
 
 class ofApp : public ofBaseApp
 {

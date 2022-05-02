@@ -1,0 +1,1698 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make Debug
+ 
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Sun May  1 20:56:22 2022
+
+# Variables
+
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 121)
+MAC_OS_SDK_ROOT = 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 257)
+CORE_EXCLUSIONS = $(strip $(PLATFORM_CORE_EXCLUSIONS))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 343)
+OF_CORE_HEADER_FILES = $(filter-out $(CORE_EXCLUSIONS),$(shell $(FIND) $(OF_CORE_SOURCE_PATHS) -name "*.h" | grep -v "/\.[^\.]"))
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 326)
+PLATFORM_FRAMEWORKS_SEARCH_PATHS = /System/Library/Frameworks
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 22)
+TARGET = bin/$(APPNAME)_debug
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 332)
+OF_CORE_BASE_CXXFLAGS = $(PLATFORM_CXXFLAGS)
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 161)
+PLATFORM_LDFLAGS = -stdlib=$(MAC_OS_STD_LIB) -mmacosx-version-min=$(MAC_OS_MIN_VERSION) -v
+# makefile
+CURDIR := /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 172)
+OF_LIBS_PATH = $(OF_ROOT)/libs
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 18)
+RUN_TARGET = RunDebug
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 312)
+PLATFORM_FRAMEWORKS =  Accelerate QTKit AGL ApplicationServices AudioToolbox CoreAudio CoreFoundation CoreServices OpenGL IOKit Cocoa CoreVideo AVFoundation CoreMedia QuartzCore Security
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 271)
+PLATFORM_SHARED_LIBRARIES = 
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 185)
+PLATFORM_OPTIMIZATION_CFLAGS_RELEASE = -Os -mtune=native
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 1)
+MAKEFILE_LIST :=  Makefile config.make /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 180)
+PLATFORM_OPTIMIZATION_CFLAGS_DEBUG = -g3
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 238)
+PLATFORM_PKG_CONFIG = pkg-config
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 163)
+OF_ADDONS_PATH = $(OF_ROOT)/addons
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 84)
+ABIS_TO_COMPILE = 
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 66)
+CROSS_COMPILING = 0
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 196)
+OF_CORE_LIB_PATH = $(OF_LIBS_OF_COMPILED_PATH)/lib/$(PLATFORM_LIB_SUBPATH)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 61)
+PLATFORM_REQUIRED_ADDONS = 
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/mf/6f24h6rn4wzc497_zxz5pg7c0000gn/T/vscode-ipc-41fb4a09-8c30-4c75-94f6-034ad64fbf31.sock
+# environment
+VSCODE_CWD = /
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 169)
+OF_APPS_PATH = $(OF_ROOT)/apps
+# environment
+PATH = /Users/keenangray/opt/anaconda3/bin:/Users/keenangray/opt/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/keenangray/docs/VisualSFM_OS_X_Installer-master/vsfm/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/keenangray/.cargo/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/rar:/usr/local/bin/FBX2gltf:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/usr/local/go/bin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 180)
+OF_LIBS_OF_COMPILED_PATH = $(OF_LIBS_OPENFRAMEWORKS_PATH)Compiled
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 40)
+FIND = find
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 324)
+OF_CORE_DEFINES_CFLAGS = $(addprefix -D,$(PLATFORM_DEFINES))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 245)
+PLATFORM_HEADER_SEARCH_PATHS = 
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 268)
+OF_CORE_SOURCE_PATHS = $(filter-out $(CORE_EXCLUSIONS),$(ALL_OF_CORE_SOURCE_PATHS))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 280)
+OF_CORE_THIRDPARTY_HEADER_PATHS = $(filter-out $(CORE_EXCLUSIONS),$(ALL_OF_CORE_THIRDPARTY_HEADER_PATHS))
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+ 
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 268)
+PLATFORM_STATIC_LIBRARIES = 
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.a6OlNQaqLo/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = /private/tmp/com.apple.launchd.H0rEbmUPQ1/org.macosforge.xquartz:0
+# environment
+CONDA_EXE = /Users/keenangray/opt/anaconda3/bin/conda
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 139)
+PLATFORM_CFLAGS = -stdlib=$(MAC_OS_STD_LIB) -Wall -fexceptions -fpascal-strings -mmacosx-version-min=$(MAC_OS_MIN_VERSION)
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 29)
+PLATFORM_OS = $(shell uname -s)
+# environment
+PWD = /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 273)
+OF_CORE_HEADER_PATHS = $(OF_LIBS_OPENFRAMEWORKS_PATH) $(OF_CORE_SOURCE_PATHS)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/keenangray
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 113)
+SHARED_LIB_EXTENSION = dylib
+# environment
+LD_LIBRARY_PATH = :/Users/keenangray/docs/VisualSFM_OS_X_Installer-master
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/keenangray/Library/Application Support/Code/CachedData/dfd34e8260c270da74b5c2d86d61aee4b6d56977
+# environment
+LOGNAME = keenangray
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 235)
+ABI_LIB_SUBPATH = $(PLATFORM_LIB_SUBPATH)
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 4)
+OF_SHARED_MAKEFILES_PATH = $(OF_ROOT)/libs/openFrameworksCompiled/project/makefileCommon
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 23)
+PLATFORM_VARIANT = default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 190)
+OF_PLATFORM_MAKEFILES = $(OF_LIBS_OF_COMPILED_PROJECT_PATH)/$(PLATFORM_LIB_SUBPATH)
+# environment
+CONDA_DEFAULT_ENV = base
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := Debug
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 29)
+PLATFORM_PROJECT_RELEASE_BIN_NAME = $(APPNAME)
+# environment
+SHLVL = 2
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 265)
+PLATFORM_LIBRARIES = objc
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 183)
+OF_LIBS_OF_COMPILED_PROJECT_PATH = $(OF_LIBS_OF_COMPILED_PATH)/project
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 28)
+PLATFORM_PROJECT_DEBUG_BIN_NAME = $(APPNAME)_debug
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 15)
+TARGET_NAME = Debug
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = keenangray
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 31)
+HOST_OS = $(shell uname -s)
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 1)
+.DEFAULT_GOAL = Release
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 60)
+PLATFORM_ARCH = $(shell uname -m)
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 142)
+PLATFORM_CXXFLAGS = -x objective-c++ -std=c++11
+# makefile (from `config.make', line 11)
+OF_ROOT = /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 30)
+BIN_NAME = $(PLATFORM_PROJECT_DEBUG_BIN_NAME)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 166)
+OF_EXAMPLES_PATH = $(OF_ROOT)/examples
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/mf/6f24h6rn4wzc497_zxz5pg7c0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/keenangray/Library/Application Support/Code/1.66.2-main.sock
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 46)
+PLATFORM_DEFINES = __MACOSX_CORE__
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 286)
+PLATFORM_LIBRARY_SEARCH_PATHS = 
+# makefile
+MAKEFLAGS = Rrqp
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 226)
+PLATFORM_CORE_EXCLUSIONS =  $(OF_LIBS_PATH)/openFrameworks/app/ofAppGlutWindow.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofDirectShowGrabber.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofDirectShowPlayer.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofQtKitGrabber.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofQtKitPlayer.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofQtKitMovieRenderer.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofQtKitPlayer.mm $(OF_LIBS_PATH)/openFrameworks/video/ofQtUtils.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofQuicktimeGrabber.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofQuicktimePlayer.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofGstUtils.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofGstVideoGrabber.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofGstVideoPlayer.cpp $(OF_LIBS_PATH)/openFrameworks/app/ofAppEGLWindow.cpp $(OF_LIBS_PATH)/boost/include/boost/% $(OF_LIBS_PATH)/videoInput/%
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 301)
+PROJECT_ADDONS_OBJ_PATH = $(realpath .)/$(OF_PROJECT_OBJ_OUTPUT_PATH)addons/
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.129270968.129270974
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 265)
+ 
+ALL_OF_CORE_SOURCE_PATHS = $(shell $(FIND) $(OF_LIBS_OPENFRAMEWORKS_PATH) -maxdepth 1 -mindepth 1 -type d | grep -v "/\.[^\.]" )
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 342)
+OF_CORE_SOURCE_FILES = $(filter-out $(CORE_EXCLUSIONS),$(shell $(FIND) $(OF_CORE_SOURCE_PATHS) -name "*.cpp" -or -name "*.mm" -or -name "*.m" | grep -v "/\.[^\.]"))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 8)
+APPNAME = $(shell basename `pwd`)
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 111)
+CLEANTARGET = $(addprefix Clean,$(TARGET_NAME))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 222)
+AVAILABLE_PLATFORM_VARIANTS = $(shell $(FIND) $(OF_PLATFORM_MAKEFILES)/config.*.mk -maxdepth 1 -type f | sed -E 's/.*\.([^\.]*)\.mk/\1/' ) default
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 277)
+ALL_OF_CORE_THIRDPARTY_HEADER_PATHS = $(shell $(FIND) $(OF_LIBS_PATH)/*/include -type d | grep -v "/\.[^\.]")
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 57)
+HOST_ARCH = $(shell uname -m)
+# automatic
+<F = $(notdir $<)
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 30)
+PLATFORM_RUN_COMMAND = cd bin/$(BIN_NAME).app/Contents/MacOS/;./$(BIN_NAME)
+# environment
+LC_ALL = C
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 317)
+OF_CORE_INCLUDES_CFLAGS = $(addprefix -I,$(PLATFORM_HEADER_SEARCH_PATHS)) $(addprefix -I,$(OF_CORE_THIRDPARTY_HEADER_PATHS)) $(addprefix -I,$(OF_CORE_HEADER_PATHS))
+# environment
+CONDA_PYTHON_EXE = /Users/keenangray/opt/anaconda3/bin/python
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 177)
+OF_LIBS_OPENFRAMEWORKS_PATH = $(OF_LIBS_PATH)/openFrameworks
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 73)
+MAC_OS_MIN_VERSION = 10.9
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 288)
+CORE_PKG_CONFIG_LIBRARIES =  $(PLATFORM_PKG_CONFIG_LIBRARIES) $(PROJECT_PKG_CONFIG_LIBRARIES)
+# environment
+MAKELEVEL := 1
+# environment
+CONDA_PREFIX = /Users/keenangray/opt/anaconda3
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 77)
+MAC_OS_STD_LIB = libc++
+# environment
+VSCODE_PID = 733
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 112)
+PLATFORM_LIB_SUBPATH = osx
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 331)
+OF_CORE_BASE_CFLAGS = $(PLATFORM_CFLAGS)
+# environment
+_CE_CONDA = 
+# environment
+LANG = C
+# variable set hash-table stats:
+# Load=137/1024=13%, Rehash=0, Collisions=58/588=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworks (device 16777223, inode 131882702): No files, no impossibilities so far.
+# . (device 16777223, inode 132164952): 17 files, no impossibilities.
+# / (device 16777223, inode 2): No files, no impossibilities so far.
+# /etc (device 16777223, inode 129518290): 111 files, no impossibilities.
+# /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project (device 16777223, inode 131882205): 3 files, no impossibilities so far.
+
+# 131 files, no impossibilities in 5 directories.
+
+# Implicit Rules
+
+%.res:
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 253):
+	@echo "Compiling Resource" $<
+	@echo MAINICON ICON \"$(shell cygpath -m $<)\" > $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.rc
+	@$(RESOURCE_COMPILER) $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.rc -O coff -o $@
+	
+
+%.o: /%.cpp .compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 263):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(PROJECT_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+%.o: /%.cxx .compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 268):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	@$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(PROJECT_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+%.o: /%.cc .compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 273):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(PROJECT_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+%.o: /%.m .compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 278):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(PROJECT_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+%.o: /%.mm .compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 283):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(PROJECT_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+%.o: /%.c .compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 288):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CC) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(PROJECT_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+%.o: /%.S .compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 293):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CC) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(PROJECT_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+ 
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking/addons/%.o: %.cpp .compiler_flags
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking/addons/%.o: %.cxx .compiler_flags
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking/addons/%.o: %.m .compiler_flags
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking/addons/%.o: %.mm .compiler_flags
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking/addons/%.o: %.cc .compiler_flags
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking/addons/%.o: %.c .compiler_flags
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking/addons/%.o: %.S .compiler_flags
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.o: /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.cpp /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/.compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 358):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.o: /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.cxx /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/.compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 363):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.o: /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.cc /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/.compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 368):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.o: /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.m /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/.compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 373):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.o: /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.mm /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/.compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 378):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.o: /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.c /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/.compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 383):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CC) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/addons/%.o: /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.S /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/.compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 388):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CC) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+libs/openFrameworks/%.o: /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworks/%.cpp .compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 396):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(OF_CORE_INCLUDES_CFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_PROJECT_OBJ_OUTPUT_PATH)libs/openFrameworks/$*.d -MT $(OF_PROJECT_OBJ_OUTPUT_PATH)libs/openFrameworks/$*.o -o $@ -c $<
+	
+
+# 23 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+ReleaseABI: bin/flocking_debug
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 169):
+	@$(MAKE) afterplatform BIN_NAME=$(BIN_NAME) ABIS_TO_COMPILE="$(ABIS_TO_COMPILE_RELEASE)" RUN_TARGET=$(RUN_TARGET) TARGET=$(TARGET)
+	@$(PROJECT_AFTER)
+	
+
+CleanDebugABI:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 416):
+	rm -rf $(OF_PROJECT_OBJ_OUTPUT_PATH)
+	rm -f $(TARGET)
+	rm -rf $(BIN_NAME)
+	
+
+# Not a target:
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-03-24 15:40:18
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 180):
+	$(MAKE) Debug
+	
+
+copyaddonsdata:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 447):
+	@echo
+	@echo "Copying addons data"
+	@mkdir -p bin/data
+	@cp -rf $(PROJECT_ADDONS_DATA) bin/data/
+	
+
+AndroidDebug:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 489):
+	$(MAKE) Debug PLATFORM_OS=Android
+	
+
+.PHONY: all Debug Release after clean CleanDebug CleanRelease help force
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+CleanAndroid:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 492):
+	$(MAKE) clean PLATFORM_OS=Android
+	
+
+DebugNoOF:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 158):
+	@echo Compiling $(APPNAME) for Debug
+	@$(MAKE) DebugABI
+	
+
+AndroidRelease:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 486):
+	$(MAKE) Release PLATFORM_OS=Android
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-28 11:47:49
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+afterplatform:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 358):
+	@rm -rf bin/$(BIN_NAME).app
+	@mkdir -p bin/$(BIN_NAME).app
+	@mkdir -p bin/$(BIN_NAME).app/Contents
+	@mkdir -p bin/$(BIN_NAME).app/Contents/MacOS
+	@mkdir -p bin/$(BIN_NAME).app/Contents/Resources
+	@echo '<?xml version="1.0" encoding="UTF-8"?>' > bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '<plist version="1.0">' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '<dict>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>CFBundleGetInfoString</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>$(BIN_NAME).app</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>CFBundleExecutable</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>$(BIN_NAME)</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>CFBundleIdentifier</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>com.your-company-name.$(APPNAME)</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>CFBundleName</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>$(BIN_NAME)</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>CFBundleShortVersionString</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>0.01</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>CFBundleInfoDictionaryVersion</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>6.0</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>CFBundlePackageType</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>APPL</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>IFMajorVersion</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <integer>0</integer>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>IFMinorVersion</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <integer>1</integer>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>NSCameraUsageDescription</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>This app needs to access the camera</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>NSMicrophoneUsageDescription</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>This app needs to access the microphone</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>NSHighResolutionCapable</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <false/>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '</dict>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '</plist>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo TARGET=$(TARGET)
+	@mv $(TARGET) bin/$(BIN_NAME).app/Contents/MacOS
+	@mkdir -p bin/$(BIN_NAME).app/Contents/Frameworks
+	@cp $(OF_LIBS_PATH)/*/lib/$(PLATFORM_LIB_SUBPATH)/*.$(SHARED_LIB_EXTENSION) bin/$(BIN_NAME).app/Contents/Frameworks/;
+	@echo
+	@echo "     compiling done"
+	@echo "     to launch the application"
+	@echo
+	@echo "     cd bin/$(BIN_NAME).app/Contents/MacOS/"
+	@echo "     ./$(BIN_NAME)"
+	@echo "     "
+	@echo "     - or -"
+	@echo "     "
+	@echo "     make $(RUN_TARGET)"
+	@echo
+	
+
+Debug:
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := Debug
+# automatic
+# % := 
+# automatic
+# * := 
+ 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=4/22=18%
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 138):
+	@echo Compiling OF library for Debug
+	$(MAKE) -C $(OF_ROOT)/libs/openFrameworksCompiled/project/ Debug PLATFORM_OS=$(PLATFORM_OS) ABIS_TO_COMPILE_DEBUG="$(ABIS_TO_COMPILE_DEBUG)"
+	@echo
+	@echo
+	@echo Compiling $(APPNAME) for Debug
+	@$(MAKE) DebugABI
+	
+
+.compiler_flags: force
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 204):
+	@mkdir -p $(OF_PROJECT_OBJ_OUTPUT_PATH)
+	@if [ "$(strip $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(PROJECT_INCLUDE_CFLAGS) $(OPTIMIZATION_LDFLAGS) $(LDFLAGS))" != "$(strip $$(cat $@ 2>/dev/null))" ]; then echo $(strip $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(PROJECT_INCLUDE_CFLAGS) $(OPTIMIZATION_LDFLAGS) $(LDFLAGS)) > $@; fi
+	
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 453):
+	@echo
+	@echo openFrameworks universal makefile
+	@echo
+	@echo "Targets:"
+	@echo
+	@echo "make Debug:		builds the library with debug symbols"
+	@echo "make Release:		builds the library with optimizations"
+	@echo "make:			= make Release"
+	@echo "make all:		= make Release"
+	@echo "make CleanDebug:	cleans the Debug target"
+	@echo "make CleanRelease:	cleans the Release target"
+	@echo "make clean:		cleans everything"
+	@echo "make help:		this help message"
+	@echo
+	@echo
+	@echo this should work with any OF app, just copy any example
+	@echo change the name of the folder and it should compile
+	@echo "only .cpp support, don't use .c files"
+	@echo it will look for files in any folder inside the application
+	@echo folder except that in the EXCLUDE_FROM_SOURCE variable.
+	@echo "it doesn't autodetect include paths yet"
+	@echo "add the include paths editing the var USER_CFLAGS"
+	@echo at the beginning of the makefile using the gcc syntax:
+	@echo -Ipath
+	@echo
+	@echo to add addons to your application, edit the addons.make file
+	@echo in this directory and add the names of the addons you want to
+	@echo include
+	@echo
+	
+
+ReleaseNoOF:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 150):
+	@echo Compiling $(APPNAME) for Release
+	@$(MAKE) ReleaseABI
+	
+
+force:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-03-24 15:40:18
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+RunRelease:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 193):
+	@$(PLATFORM_RUN_COMMAND)
+	
+
+Release:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 124):
+	@echo Compiling OF library for Release
+	@$(MAKE) -C $(OF_ROOT)/libs/openFrameworksCompiled/project/ Release PLATFORM_OS=$(PLATFORM_OS) ABIS_TO_COMPILE_RELEASE="$(ABIS_TO_COMPILE_RELEASE)"
+	@echo
+	@echo
+	@echo Compiling $(APPNAME) for Release
+	@$(MAKE) ReleaseABI
+	
+
+CleanRelease:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+ 
+#  File does not exist.
+#  File has not been updated.
+
+RunDebug:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 200):
+	@$(PLATFORM_RUN_COMMAND)
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+CleanDebug:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 422):
+	@$(MAKE) $(CLEANTARGET)ABI
+	@rm -rf bin/libs
+	
+
+# Not a target:
+config.make:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-28 11:58:49
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/.compiler_flags: force
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 208):
+	@mkdir -p $(OF_PROJECT_OBJ_OUTPUT_PATH)
+	@mkdir -p $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)
+	@if [ "$(strip $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS))" != "$(strip $$(cat $@ 2>/dev/null))" ]; then echo $(strip $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS)) > $@; fi
+	
+
+run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 186):
+	@$(PLATFORM_RUN_COMMAND)
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 409):
+	@$(MAKE) CleanDebug
+	@$(MAKE) CleanRelease
+	
+
+DebugABI: bin/flocking_debug
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 176):
+	@$(MAKE) afterplatform BIN_NAME=$(BIN_NAME) ABIS_TO_COMPILE="$(ABIS_TO_COMPILE_DEBUG)" RUN_TARGET=$(RUN_TARGET) TARGET=$(TARGET)
+	@$(PROJECT_AFTER)
+	
+
+after: Debug
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 433):
+	-cp ${OF_LIBS_PATH}/*/lib/${PLATFORM_LIB_SUBPATH}/*.${SHARED_LIB_EXTENSION} bin/ ; true
+	@echo
+	@echo "     compiling done"
+	@echo "     to launch the application"
+	@echo
+	@echo "     cd bin"
+	@echo "     ./$(BIN_NAME)"
+	@echo "     "
+	@echo "     - or -"
+	@echo "     "
+	@echo "     $(MAKE) $(RUN_TARGET)"
+	@echo
+	
+
+bin/flocking_debug: .compiler_flags
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 403):
+	@echo 'Linking $(TARGET) for $(ABI_LIB_SUBPATH)'
+	@mkdir -p $(@D)
+	$(CXX) -o $@ $(OPTIMIZATION_LDFLAGS) $(OF_PROJECT_OBJS) $(OF_PROJECT_RESOURCES) $(OF_PROJECT_ADDONS_OBJS) $(TARGET_LIBS) $(OF_PROJECT_LIBS) $(LDFLAGS) $(OF_CORE_LIBS)
+	
+
+# Not a target:
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2021-03-24 15:40:18
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=33/1024=3%, Rehash=0, Collisions=1/66=2%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 5
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3680 / max = 3680 / min = 3680 / avg = 3680
+
+# Finished Make data base on Sun May  1 20:56:22 2022
+
+ 
+make: *** [all] Error 1
+
+
+# Make data base, printed on Sun May  1 20:56:22 2022
+
+# Variables
+
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 121)
+MAC_OS_SDK_ROOT = 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 257)
+CORE_EXCLUSIONS = $(strip $(PLATFORM_CORE_EXCLUSIONS))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 343)
+OF_CORE_HEADER_FILES = $(filter-out $(CORE_EXCLUSIONS),$(shell $(FIND) $(OF_CORE_SOURCE_PATHS) -name "*.h" | grep -v "/\.[^\.]"))
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 326)
+PLATFORM_FRAMEWORKS_SEARCH_PATHS = /System/Library/Frameworks
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 332)
+OF_CORE_BASE_CXXFLAGS = $(PLATFORM_CXXFLAGS)
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 161)
+PLATFORM_LDFLAGS = -stdlib=$(MAC_OS_STD_LIB) -mmacosx-version-min=$(MAC_OS_MIN_VERSION) -v
+# makefile
+CURDIR := /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 172)
+OF_LIBS_PATH = $(OF_ROOT)/libs
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 312)
+PLATFORM_FRAMEWORKS =  Accelerate QTKit AGL ApplicationServices AudioToolbox CoreAudio CoreFoundation CoreServices OpenGL IOKit Cocoa CoreVideo AVFoundation CoreMedia QuartzCore Security
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 271)
+ 
+PLATFORM_SHARED_LIBRARIES = 
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 185)
+PLATFORM_OPTIMIZATION_CFLAGS_RELEASE = -Os -mtune=native
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 1)
+MAKEFILE_LIST :=  Makefile config.make /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 180)
+PLATFORM_OPTIMIZATION_CFLAGS_DEBUG = -g3
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 238)
+PLATFORM_PKG_CONFIG = pkg-config
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 163)
+OF_ADDONS_PATH = $(OF_ROOT)/addons
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 84)
+ABIS_TO_COMPILE = 
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 66)
+CROSS_COMPILING = 0
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 196)
+OF_CORE_LIB_PATH = $(OF_LIBS_OF_COMPILED_PATH)/lib/$(PLATFORM_LIB_SUBPATH)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 61)
+PLATFORM_REQUIRED_ADDONS = 
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/mf/6f24h6rn4wzc497_zxz5pg7c0000gn/T/vscode-ipc-41fb4a09-8c30-4c75-94f6-034ad64fbf31.sock
+# environment
+VSCODE_CWD = /
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 169)
+OF_APPS_PATH = $(OF_ROOT)/apps
+# environment
+PATH = /Users/keenangray/opt/anaconda3/bin:/Users/keenangray/opt/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/keenangray/docs/VisualSFM_OS_X_Installer-master/vsfm/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/Users/keenangray/.cargo/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/rar:/usr/local/bin/FBX2gltf:/Applications/VMware Fusion.app/Contents/Public:/Library/TeX/texbin:/usr/local/go/bin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 180)
+OF_LIBS_OF_COMPILED_PATH = $(OF_LIBS_OPENFRAMEWORKS_PATH)Compiled
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 40)
+FIND = find
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 324)
+OF_CORE_DEFINES_CFLAGS = $(addprefix -D,$(PLATFORM_DEFINES))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 245)
+PLATFORM_HEADER_SEARCH_PATHS = 
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 268)
+OF_CORE_SOURCE_PATHS = $(filter-out $(CORE_EXCLUSIONS),$(ALL_OF_CORE_SOURCE_PATHS))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 280)
+OF_CORE_THIRDPARTY_HEADER_PATHS = $(filter-out $(CORE_EXCLUSIONS),$(ALL_OF_CORE_THIRDPARTY_HEADER_PATHS))
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 268)
+PLATFORM_STATIC_LIBRARIES = 
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.a6OlNQaqLo/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = /private/tmp/com.apple.launchd.H0rEbmUPQ1/org.macosforge.xquartz:0
+# environment
+CONDA_EXE = /Users/keenangray/opt/anaconda3/bin/conda
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 139)
+PLATFORM_CFLAGS = -stdlib=$(MAC_OS_STD_LIB) -Wall -fexceptions -fpascal-strings -mmacosx-version-min=$(MAC_OS_MIN_VERSION)
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 29)
+PLATFORM_OS = $(shell uname -s)
+# environment
+PWD = /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 273)
+OF_CORE_HEADER_PATHS = $(OF_LIBS_OPENFRAMEWORKS_PATH) $(OF_CORE_SOURCE_PATHS)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/keenangray
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 113)
+SHARED_LIB_EXTENSION = dylib
+# environment
+LD_LIBRARY_PATH = :/Users/keenangray/docs/VisualSFM_OS_X_Installer-master
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/keenangray/Library/Application Support/Code/CachedData/dfd34e8260c270da74b5c2d86d61aee4b6d56977
+# environment
+LOGNAME = keenangray
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 235)
+ABI_LIB_SUBPATH = $(PLATFORM_LIB_SUBPATH)
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 4)
+OF_SHARED_MAKEFILES_PATH = $(OF_ROOT)/libs/openFrameworksCompiled/project/makefileCommon
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 23)
+ 
+PLATFORM_VARIANT = default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 190)
+OF_PLATFORM_MAKEFILES = $(OF_LIBS_OF_COMPILED_PROJECT_PATH)/$(PLATFORM_LIB_SUBPATH)
+# environment
+CONDA_DEFAULT_ENV = base
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 29)
+PLATFORM_PROJECT_RELEASE_BIN_NAME = $(APPNAME)
+# environment
+SHLVL = 2
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 265)
+PLATFORM_LIBRARIES = objc
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 183)
+OF_LIBS_OF_COMPILED_PROJECT_PATH = $(OF_LIBS_OF_COMPILED_PATH)/project
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 28)
+PLATFORM_PROJECT_DEBUG_BIN_NAME = $(APPNAME)_debug
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = keenangray
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 31)
+HOST_OS = $(shell uname -s)
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 1)
+.DEFAULT_GOAL = Release
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 60)
+PLATFORM_ARCH = $(shell uname -m)
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 142)
+PLATFORM_CXXFLAGS = -x objective-c++ -std=c++11
+# makefile (from `config.make', line 11)
+OF_ROOT = /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 166)
+OF_EXAMPLES_PATH = $(OF_ROOT)/examples
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/mf/6f24h6rn4wzc497_zxz5pg7c0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/keenangray/Library/Application Support/Code/1.66.2-main.sock
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 46)
+PLATFORM_DEFINES = __MACOSX_CORE__
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 286)
+PLATFORM_LIBRARY_SEARCH_PATHS = 
+# makefile
+MAKEFLAGS = Rrqp
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 226)
+PLATFORM_CORE_EXCLUSIONS =  $(OF_LIBS_PATH)/openFrameworks/app/ofAppGlutWindow.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofDirectShowGrabber.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofDirectShowPlayer.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofQtKitGrabber.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofQtKitPlayer.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofQtKitMovieRenderer.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofQtKitPlayer.mm $(OF_LIBS_PATH)/openFrameworks/video/ofQtUtils.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofQuicktimeGrabber.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofQuicktimePlayer.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofGstUtils.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofGstVideoGrabber.cpp $(OF_LIBS_PATH)/openFrameworks/video/ofGstVideoPlayer.cpp $(OF_LIBS_PATH)/openFrameworks/app/ofAppEGLWindow.cpp $(OF_LIBS_PATH)/boost/include/boost/% $(OF_LIBS_PATH)/videoInput/%
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 301)
+PROJECT_ADDONS_OBJ_PATH = $(realpath .)/$(OF_PROJECT_OBJ_OUTPUT_PATH)addons/
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.129270968.129270974
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 265)
+ALL_OF_CORE_SOURCE_PATHS = $(shell $(FIND) $(OF_LIBS_OPENFRAMEWORKS_PATH) -maxdepth 1 -mindepth 1 -type d | grep -v "/\.[^\.]" )
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 342)
+OF_CORE_SOURCE_FILES = $(filter-out $(CORE_EXCLUSIONS),$(shell $(FIND) $(OF_CORE_SOURCE_PATHS) -name "*.cpp" -or -name "*.mm" -or -name "*.m" | grep -v "/\.[^\.]"))
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 8)
+APPNAME = $(shell basename `pwd`)
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 222)
+AVAILABLE_PLATFORM_VARIANTS = $(shell $(FIND) $(OF_PLATFORM_MAKEFILES)/config.*.mk -maxdepth 1 -type f | sed -E 's/.*\.([^\.]*)\.mk/\1/' ) default
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 277)
+ALL_OF_CORE_THIRDPARTY_HEADER_PATHS = $(shell $(FIND) $(OF_LIBS_PATH)/*/include -type d | grep -v "/\.[^\.]")
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 57)
+HOST_ARCH = $(shell uname -m)
+# automatic
+<F = $(notdir $<)
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 30)
+PLATFORM_RUN_COMMAND = cd bin/$(BIN_NAME).app/Contents/MacOS/;./$(BIN_NAME)
+# environment
+LC_ALL = C
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 317)
+OF_CORE_INCLUDES_CFLAGS = $(addprefix -I,$(PLATFORM_HEADER_SEARCH_PATHS)) $(addprefix -I,$(OF_CORE_THIRDPARTY_HEADER_PATHS)) $(addprefix -I,$(OF_CORE_HEADER_PATHS))
+# environment
+CONDA_PYTHON_EXE = /Users/keenangray/opt/anaconda3/bin/python
+ 
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 177)
+OF_LIBS_OPENFRAMEWORKS_PATH = $(OF_LIBS_PATH)/openFrameworks
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 73)
+MAC_OS_MIN_VERSION = 10.9
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 288)
+CORE_PKG_CONFIG_LIBRARIES =  $(PLATFORM_PKG_CONFIG_LIBRARIES) $(PROJECT_PKG_CONFIG_LIBRARIES)
+# environment
+MAKELEVEL := 0
+# environment
+CONDA_PREFIX = /Users/keenangray/opt/anaconda3
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 77)
+MAC_OS_STD_LIB = libc++
+# environment
+VSCODE_PID = 733
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 112)
+PLATFORM_LIB_SUBPATH = osx
+# makefile (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk', line 331)
+OF_CORE_BASE_CFLAGS = $(PLATFORM_CFLAGS)
+# environment
+_CE_CONDA = 
+# environment
+LANG = C
+# variable set hash-table stats:
+# Load=132/1024=13%, Rehash=0, Collisions=58/528=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworks (device 16777223, inode 131882702): No files, no impossibilities so far.
+# . (device 16777223, inode 132164952): 17 files, no impossibilities.
+# / (device 16777223, inode 2): No files, no impossibilities so far.
+# /etc (device 16777223, inode 129518290): 111 files, no impossibilities.
+# /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project (device 16777223, inode 131882205): 3 files, no impossibilities so far.
+
+# 131 files, no impossibilities in 5 directories.
+
+# Implicit Rules
+
+%.res:
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 253):
+	@echo "Compiling Resource" $<
+	@echo MAINICON ICON \"$(shell cygpath -m $<)\" > $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.rc
+	@$(RESOURCE_COMPILER) $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.rc -O coff -o $@
+	
+
+%.o: /%.cpp .compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 263):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(PROJECT_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+%.o: /%.cxx .compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 268):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	@$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(PROJECT_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+%.o: /%.cc .compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 273):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(PROJECT_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+%.o: /%.m .compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 278):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(PROJECT_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+%.o: /%.mm .compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 283):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(PROJECT_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+%.o: /%.c .compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 288):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CC) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(PROJECT_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+%.o: /%.S .compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 293):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CC) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(PROJECT_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking/addons/%.o: %.cpp .compiler_flags
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking/addons/%.o: %.cxx .compiler_flags
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking/addons/%.o: %.m .compiler_flags
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking/addons/%.o: %.mm .compiler_flags
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking/addons/%.o: %.cc .compiler_flags
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking/addons/%.o: %.c .compiler_flags
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/apps/myApps/flocking/addons/%.o: %.S .compiler_flags
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.o: /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.cpp /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/.compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 358):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.o: /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.cxx /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/.compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 363):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.o: /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.cc /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/.compiler_flags
+ 
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 368):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.o: /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.m /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/.compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 373):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.o: /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.mm /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/.compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 378):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.o: /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.c /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/.compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 383):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CC) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/addons/%.o: /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/%.S /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/.compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 388):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CC) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.d -MT $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)$*.o -o $@ -c $<
+	
+
+libs/openFrameworks/%.o: /Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworks/%.cpp .compiler_flags
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 396):
+	@echo "Compiling" $<
+	@mkdir -p $(@D)
+	$(CXX) -c $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(OF_CORE_INCLUDES_CFLAGS) $(ADDON_INCLUDE_CFLAGS) -MMD -MP -MF $(OF_PROJECT_OBJ_OUTPUT_PATH)libs/openFrameworks/$*.d -MT $(OF_PROJECT_OBJ_OUTPUT_PATH)libs/openFrameworks/$*.o -o $@ -c $<
+	
+
+# 23 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+ReleaseABI:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 169):
+	@$(MAKE) afterplatform BIN_NAME=$(BIN_NAME) ABIS_TO_COMPILE="$(ABIS_TO_COMPILE_RELEASE)" RUN_TARGET=$(RUN_TARGET) TARGET=$(TARGET)
+	@$(PROJECT_AFTER)
+	
+
+# Not a target:
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/config.shared.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-03-24 15:40:18
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/12=17%
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 180):
+	$(MAKE) Debug
+	
+
+copyaddonsdata:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 447):
+	@echo
+	@echo "Copying addons data"
+	@mkdir -p bin/data
+	@cp -rf $(PROJECT_ADDONS_DATA) bin/data/
+	
+
+AndroidDebug:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 489):
+	$(MAKE) Debug PLATFORM_OS=Android
+	
+
+.PHONY: all Debug Release after clean CleanDebug CleanRelease help force
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+CleanAndroid:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 492):
+	$(MAKE) clean PLATFORM_OS=Android
+	
+
+DebugNoOF:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 158):
+	@echo Compiling $(APPNAME) for Debug
+	@$(MAKE) DebugABI
+	
+
+AndroidRelease:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 486):
+	$(MAKE) Release PLATFORM_OS=Android
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-28 11:47:49
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+afterplatform:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk', line 358):
+	@rm -rf bin/$(BIN_NAME).app
+	@mkdir -p bin/$(BIN_NAME).app
+	@mkdir -p bin/$(BIN_NAME).app/Contents
+	@mkdir -p bin/$(BIN_NAME).app/Contents/MacOS
+	@mkdir -p bin/$(BIN_NAME).app/Contents/Resources
+	@echo '<?xml version="1.0" encoding="UTF-8"?>' > bin/$(BIN_NAME).app/Contents/Info.plist
+ 
+	@echo '<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '<plist version="1.0">' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '<dict>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>CFBundleGetInfoString</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>$(BIN_NAME).app</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>CFBundleExecutable</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>$(BIN_NAME)</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>CFBundleIdentifier</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>com.your-company-name.$(APPNAME)</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>CFBundleName</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>$(BIN_NAME)</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>CFBundleShortVersionString</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>0.01</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>CFBundleInfoDictionaryVersion</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>6.0</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>CFBundlePackageType</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>APPL</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>IFMajorVersion</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <integer>0</integer>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>IFMinorVersion</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <integer>1</integer>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>NSCameraUsageDescription</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>This app needs to access the camera</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>NSMicrophoneUsageDescription</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <string>This app needs to access the microphone</string>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <key>NSHighResolutionCapable</key>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '  <false/>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '</dict>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo '</plist>' >> bin/$(BIN_NAME).app/Contents/Info.plist
+	@echo TARGET=$(TARGET)
+	@mv $(TARGET) bin/$(BIN_NAME).app/Contents/MacOS
+	@mkdir -p bin/$(BIN_NAME).app/Contents/Frameworks
+	@cp $(OF_LIBS_PATH)/*/lib/$(PLATFORM_LIB_SUBPATH)/*.$(SHARED_LIB_EXTENSION) bin/$(BIN_NAME).app/Contents/Frameworks/;
+	@echo
+	@echo "     compiling done"
+	@echo "     to launch the application"
+	@echo
+	@echo "     cd bin/$(BIN_NAME).app/Contents/MacOS/"
+	@echo "     ./$(BIN_NAME)"
+	@echo "     "
+	@echo "     - or -"
+	@echo "     "
+	@echo "     make $(RUN_TARGET)"
+	@echo
+	
+
+Debug:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 138):
+	@echo Compiling OF library for Debug
+	$(MAKE) -C $(OF_ROOT)/libs/openFrameworksCompiled/project/ Debug PLATFORM_OS=$(PLATFORM_OS) ABIS_TO_COMPILE_DEBUG="$(ABIS_TO_COMPILE_DEBUG)"
+	@echo
+	@echo
+	@echo Compiling $(APPNAME) for Debug
+	@$(MAKE) DebugABI
+	
+
+ABI:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 416):
+	rm -rf $(OF_PROJECT_OBJ_OUTPUT_PATH)
+	rm -f $(TARGET)
+	rm -rf $(BIN_NAME)
+	
+
+.compiler_flags: force
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 204):
+	@mkdir -p $(OF_PROJECT_OBJ_OUTPUT_PATH)
+	@if [ "$(strip $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(PROJECT_INCLUDE_CFLAGS) $(OPTIMIZATION_LDFLAGS) $(LDFLAGS))" != "$(strip $$(cat $@ 2>/dev/null))" ]; then echo $(strip $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS) $(PROJECT_INCLUDE_CFLAGS) $(OPTIMIZATION_LDFLAGS) $(LDFLAGS)) > $@; fi
+	
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 453):
+	@echo
+	@echo openFrameworks universal makefile
+	@echo
+	@echo "Targets:"
+	@echo
+	@echo "make Debug:		builds the library with debug symbols"
+	@echo "make Release:		builds the library with optimizations"
+	@echo "make:			= make Release"
+	@echo "make all:		= make Release"
+	@echo "make CleanDebug:	cleans the Debug target"
+	@echo "make CleanRelease:	cleans the Release target"
+	@echo "make clean:		cleans everything"
+	@echo "make help:		this help message"
+	@echo
+	@echo
+	@echo this should work with any OF app, just copy any example
+	@echo change the name of the folder and it should compile
+	@echo "only .cpp support, don't use .c files"
+	@echo it will look for files in any folder inside the application
+	@echo folder except that in the EXCLUDE_FROM_SOURCE variable.
+	@echo "it doesn't autodetect include paths yet"
+	@echo "add the include paths editing the var USER_CFLAGS"
+	@echo at the beginning of the makefile using the gcc syntax:
+	@echo -Ipath
+	@echo
+	@echo to add addons to your application, edit the addons.make file
+	@echo in this directory and add the names of the addons you want to
+	@echo include
+	@echo
+	
+
+ReleaseNoOF:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 150):
+	@echo Compiling $(APPNAME) for Release
+	@$(MAKE) ReleaseABI
+	
+
+force:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+ 
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/osx/config.osx.default.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-03-24 15:40:18
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+RunRelease:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 193):
+	@$(PLATFORM_RUN_COMMAND)
+	
+
+Release:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 124):
+	@echo Compiling OF library for Release
+	@$(MAKE) -C $(OF_ROOT)/libs/openFrameworksCompiled/project/ Release PLATFORM_OS=$(PLATFORM_OS) ABIS_TO_COMPILE_RELEASE="$(ABIS_TO_COMPILE_RELEASE)"
+	@echo
+	@echo
+	@echo Compiling $(APPNAME) for Release
+	@$(MAKE) ReleaseABI
+	
+
+CleanRelease:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+RunDebug:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 200):
+	@$(PLATFORM_RUN_COMMAND)
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+CleanDebug:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+config.make:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-28 11:58:49
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/addons/.compiler_flags: force
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 208):
+	@mkdir -p $(OF_PROJECT_OBJ_OUTPUT_PATH)
+	@mkdir -p $(OF_ADDONS_PATH)/$(OF_PROJECT_OBJ_OUTPUT_PATH)
+	@if [ "$(strip $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS))" != "$(strip $$(cat $@ 2>/dev/null))" ]; then echo $(strip $(OPTIMIZATION_CFLAGS) $(CFLAGS) $(CXXFLAGS)) > $@; fi
+	
+
+run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 186):
+	@$(PLATFORM_RUN_COMMAND)
+	
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 409):
+	@$(MAKE) CleanDebug
+	@$(MAKE) CleanRelease
+	
+
+DebugABI:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 176):
+	@$(MAKE) afterplatform BIN_NAME=$(BIN_NAME) ABIS_TO_COMPILE="$(ABIS_TO_COMPILE_DEBUG)" RUN_TARGET=$(RUN_TARGET) TARGET=$(TARGET)
+	@$(PROJECT_AFTER)
+	
+
+after:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk', line 433):
+	-cp ${OF_LIBS_PATH}/*/lib/${PLATFORM_LIB_SUBPATH}/*.${SHARED_LIB_EXTENSION} bin/ ; true
+	@echo
+	@echo "     compiling done"
+	@echo "     to launch the application"
+	@echo
+	@echo "     cd bin"
+	@echo "     ./$(BIN_NAME)"
+	@echo "     "
+	@echo "     - or -"
+	@echo "     "
+	@echo "     $(MAKE) $(RUN_TARGET)"
+	@echo
+	
+
+# Not a target:
+/Users/keenangray/Desktop/open-frameworks/of_v0.11.2_osx_release/libs/openFrameworksCompiled/project/makefileCommon/compile.project.mk:
+#  Implicit rule search has been done.
+#  Last modified 2021-03-24 15:40:18
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=32/1024=3%, Rehash=0, Collisions=1/62=2%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 5
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3680 / max = 3680 / min = 3680 / avg = 3680
+
+# Finished Make data base on Sun May  1 20:56:22 2022
+
+ 
