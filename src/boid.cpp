@@ -3,6 +3,16 @@ boid::boid()
 {
 }
 
+bool operator==(const boid &b1, const boid &b2)
+{
+    return (b1.id == b2.id);
+}
+
+bool operator!=(const boid &b1, const boid &b2)
+{
+    return (b1.id != b2.id);
+}
+
 void boid::setup()
 {
    //position.set(ofGetWidth() / 2, ofGetHeight() / 2, 0);  //create our boid in the center of the window

@@ -12,6 +12,9 @@ public:
     void update(); // update method, used to refresh your objects properties
     void draw();   // draw method, this where you'll do the object's drawing
 
+bool operator==(const boid &b1, const boid &b2);
+bool operator!=(const boid &b1, const boid &b2);
+
     //steering methods
     ofVec3f alignment(const vector<boid>& boids);  // returns a steering vector resulting from the average direction of nearby boids
     ofVec3f cohesion(const vector<boid>& boids);   // returns a steering vector resulting from the average position of nearby boids
