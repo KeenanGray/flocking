@@ -29,7 +29,7 @@ void ofApp::update()
     // boids should update once all flocking calculations are done.
     for (int i = 0; i < numberOfBoids; i++)
     {
-        boids[i].update(); // update the boid positions.
+        boids[i].update(); // update the boid positions
     }
 }
 
