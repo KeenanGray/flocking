@@ -26,8 +26,6 @@ public:
     boid *search(ofPoint);
     std::vector<boid *> &getNearby(quadTree quad, ofPoint tl, ofPoint br);
     bool inBoundary(ofPoint);
-
-private:
 };
 
 #endif
