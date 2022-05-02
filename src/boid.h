@@ -6,6 +6,8 @@
 class boid
 {
 public: 
+    inline static int count = 0;
+    int id;
     //open frameworks methods. 
     // methods, equivalent to specific functions of your class objects
     void setup();  // setup method, use this to setup your object's initial state
