@@ -3,6 +3,7 @@
 #include "ofMain.h"
 #include "boid.h"
 #include "of3dPrimitives.h"
+#include "quadTree.h"
 
 #define numberOfBoids 100
 
@@ -28,4 +29,5 @@ public:
 private:
 	//boid boids[numberOfBoids]; //array of the boids
 	std::vector<boid> boids;
+	quadTree quad;
 };
